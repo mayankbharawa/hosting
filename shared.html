@@ -1,0 +1,26 @@
+<!--<html><head><title></title></head>
+<body>
+<form  method=POST action ="/cgi-bin/hosting.cgi">
+<input type="checkbox" name="html" value="html"> HTML<br>
+<input type="checkbox" name="php" value="php"> PHP<br>
+<input type="checkbox" name="javascript" value="js" checked>JAVASCRIPT<br>
+<input type="file" name="c" >
+<label for="fileupload"> Select a file to upload</label>
+<input type="submit" value="send">
+</form> 
+<a href="ftp://192.168.109.176">ftp link to upload</a><br>
+to upload file using ftp use the below credentials:-<br>
+username :jacky<br>
+password:123qwe,./
+</body>
+</html>
+-->
+<html>
+<body>
+   <form enctype = "multipart/form-data"
+                     action = "/cgi-bin/save_file.py" method = "post">
+   <p>File: <input type = "file" name = "filename" /></p>
+   <p><input type = "submit" value = "Upload" /></p>
+   </form>
+</body>
+</html>
